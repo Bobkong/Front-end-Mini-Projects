@@ -9,7 +9,43 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>tabs project</h1>
+    <section>
+      <div class="title">
+        <h2>about</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, quibusdam eveniet? Aliquid placeat inventore molestiae, quisquam rem ab voluptate voluptatibus delectus quo ad, dolorem deleniti officiis distinctio laudantium eum odit.</p>
+      </div>
+      <div class="about-center section-center">
+        <div class="about-img">
+          <img src="hero-bcg.jpeg" alt="about image">
+        </div>
+        <div class="about">
+          <div class="btn-container">
+            <button class="tab-btn active" type="button" data-id="history">history</button>
+            <button class="tab-btn" type="button" data-id="vision">vision</button>
+            <button class="tab-btn" type="button" data-id="goals">goals</button>
+          </div>
+          <div class="about-content">
+            <!-- single item -->
+            <div class="content active" id="history">
+              <h4>
+                history
+              </h4>
+            </div>
+            <div class="content" id="vision">
+              <h4>
+                vision
+              </h4>
+            </div>
+            <div class="content" id="goals">
+              <h4>
+                goals
+              </h4>
+            </div>
+            <!-- end single item -->
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- javascript -->
     <script src="app.js"></script>
   </body>
