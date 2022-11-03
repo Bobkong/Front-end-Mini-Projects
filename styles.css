@@ -112,7 +112,6 @@ h4 {
     text-align: center;
     color: #eeeeee;
     font-family: 'Oswald', sans-serif;
-    margin-bottom: 8px;
     font-size: 1rem;
 
 }
@@ -120,6 +119,7 @@ h4 {
 .develop-github:hover {
     color: #000000;
     background-color: #eeeeee;
+    cursor: pointer;
 }
 
 header {
