@@ -13,20 +13,23 @@ body {
 }
 
 header {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    text-align: center;
 }
 
 header, form {
-    min-height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    row-gap: 8px;
 }
 
 form input, form button {
     padding: 0.5rem;
-    font-size: 2em;
+    font-size: 1.5em;
     border: none;
 }
 
@@ -130,12 +133,16 @@ select {
     width: 10rem;
     cursor: pointer;
     padding: 1rem;
+    
 }
 
 .select {
     margin: 1rem;
     position: relative;
     overflow: hidden;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .select::after {
@@ -171,7 +178,7 @@ select {
 
 .todo-date {
     font-size: 1.5rem;
-    padding: 0.75rem;
+    padding: 0.48rem;
     font-family: "Poppins", sans-serif;
 }
 
