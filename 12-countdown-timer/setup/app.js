@@ -40,7 +40,7 @@ const day = weekdays[futureDate.getDay()];
 const hour = futureDate.getHours();
 const minute = futureDate.getMinutes();
 
-giveaway.textContent = `giveaway ends on ${day}, ${date} ${month} ${year} ${hour}:${minute}`;
+giveaway.textContent = `Fly to New York on ${day}, ${date} ${month} ${year} ${hour}:${minute}`;
 
 
 // future time in ms
