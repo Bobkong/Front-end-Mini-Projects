@@ -31,7 +31,7 @@ const projects = [
 
     {
         id: 3,
-        name: 'Navbar',
+        name: 'Responsive Navbar',
         image: 'images/nav-bar.webp',
         src: '04-navbar/setup/index.html'
     }, 
