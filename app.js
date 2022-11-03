@@ -4,28 +4,28 @@ const projects = [
         id: 0,
         name: 'Todo List',
         image: 'images/todo.png',
-        src: 'https://bobkong.github.io/Todo-List/'
+        src: '01-todo-list/index.html'
     },
 
     {
         id: 1,
         name: 'Countdown Timer',
         image: 'images/countdown.png',
-        src: '12-countdown-timer/setup/index.html'
+        src: '02-countdown-timer/index.html'
     },
 
     {
         id: 2,
         name: 'Tabs',
         image: 'images/tabs.webp',
-        src: '11-tabs/setup/index.html'
+        src: '03-tabs/index.html'
     },
 
     {
         id: 3,
         name: 'Menu',
         image: 'images/menu.webp',
-        src: '08-menu/setup/index.html'
+        src: '04-menu/index.html'
     }, 
 
 
@@ -33,39 +33,41 @@ const projects = [
         id: 4,
         name: 'Responsive Navbar',
         image: 'images/nav-bar.webp',
-        src: '04-navbar/setup/index.html'
+        src: '05-navbar/index.html'
     }, 
 
     {
         id: 5,
         name: 'Reviews',
         image: 'images/reviews.webp',
-        src: '03-reviews/setup/index.html'
+        src: '06-reviews/index.html'
     }, 
 
     {
         id: 6,
         name: 'Lorem Ipsum',
         image: 'images/lorem.webp',
-        src: '13-lorem-ipsum/setup/index.html'
+        src: '07-lorem-ipsum/index.html'
     },
 
     {
         id: 7,
         name: 'Color Flipper',
         image: 'images/color-flipper.webp',
-        src: '01-color-flipper/setup/index.html'
+        src: '08-color-flipper/index.html'
     }, 
 
     {
         id: 8,
         name: 'Simple Counter',
         image: 'images/counter.webp',
-        src: '02-counter/setup/index.html'
+        src: '09-counter/index.html'
     }, 
 ]
 
 const projectsDiv = document.querySelector('.projects');
+const github = document.querySelector('.develop-github');
+github.addEventListener('click', jumpToGithub);
 
 function addProjects() {
     const projectsHtml = [];
@@ -89,6 +91,10 @@ function addProjects() {
 function clickProject(event) {
     console.log(this.getAttribute('data-id'));
     window.open(projects[this.getAttribute('data-id')].src, '_blank');
+}
+
+function jumpToGithub() {
+    window.open('https://github.com/Bobkong/Front-end-Mini-Projects', '_blank');
 }
 
 addProjects();

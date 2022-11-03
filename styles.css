@@ -15,12 +15,13 @@ h1,
 h2,
 h3,
 h4 {
-text-align: center;
-  letter-spacing: 0.2rem;
-  text-transform: capitalize;
-  line-height: 1.25;
-  margin-bottom: 0.75rem;
-  font-family: 'Oswald', sans-serif;
+    max-width: 1000px;
+    letter-spacing: 0.2rem;
+    text-transform: capitalize;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+    font-family: 'Oswald', sans-serif;
+
 }
 h1 {
     font-size: 3rem;
@@ -64,12 +65,9 @@ h4 {
 }
 
 .underline {
-    height: 0.15rem;
-    width: 5rem;
-    background: white;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 16px;
+    height: 0.05rem;
+    background: #aaaaaa;
+    margin-top: 40px;
 }
 
 .projects {
@@ -103,4 +101,31 @@ h4 {
 .project-container:hover {
     transform: scale(1.15);
     cursor: pointer;
+}
+
+.develop-github {
+    margin-top: 24px;
+    max-width: 200px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border: #ffffff 1.5px solid;
+    text-align: center;
+    color: #eeeeee;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 8px;
+    font-size: 1rem;
+
+}
+
+.develop-github:hover {
+    color: #000000;
+    background-color: #eeeeee;
+}
+
+header {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
