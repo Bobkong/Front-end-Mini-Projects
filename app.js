@@ -10,7 +10,7 @@ const projects = [
     {
         id: 1,
         name: 'Countdown Timer',
-        image: 'images/countdown.webp',
+        image: 'images/countdown.png',
         src: '12-countdown-timer/setup/index.html'
     },
 
