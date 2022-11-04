@@ -195,7 +195,6 @@ select {
 }
 
 .todo-date-text {
-    border: none;
     font-size: 1rem;
     color: black;
     margin: 0.2rem;
@@ -205,6 +204,7 @@ select {
     font-size: 1.5rem;
     padding: 0.48rem;
     font-family: "Poppins", sans-serif;
+    border-left: #ff6f47 solid 2px;
 }
 
 i {
